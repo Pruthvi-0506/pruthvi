@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="site-header">
+    <span class="brand">YN</span>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO — the notebook cover -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Field Notes — Vol. 01</p>
+        <h1>Your Name</h1>
+        <p class="hero-role">Software Engineer, building things that hold up under real use.</p>
+        <a class="hero-cta" href="#work">
+          <span>Browse the catalog</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <p class="hero-index">No. 001 / Est. 2026</p>
+    </section>
+
+    <!-- WORK — catalog cards -->
+    <section id="work" class="work">
+      <div class="section-head">
+        <h2>Specimens</h2>
+        <p>A short catalog of things I've built — logged, not curated.</p>
+      </div>
+
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-num">SPECIMEN&nbsp;NO.&nbsp;001</span>
+            <span class="card-tag">Web App</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One or two sentences on what this project does and the problem it solves for the people who use it.</p>
+          <ul class="card-meta">
+            <li>React</li>
+            <li>Node</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <a class="card-link" href="#">View project →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-num">SPECIMEN&nbsp;NO.&nbsp;002</span>
+            <span class="card-tag">CLI Tool</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One or two sentences on what this project does and the problem it solves for the people who use it.</p>
+          <ul class="card-meta">
+            <li>Python</li>
+            <li>Typer</li>
+          </ul>
+          <a class="card-link" href="#">View project →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <span class="card-num">SPECIMEN&nbsp;NO.&nbsp;003</span>
+            <span class="card-tag">API</span>
+          </div>
+          <h3>Project Name</h3>
+          <p>One or two sentences on what this project does and the problem it solves for the people who use it.</p>
+          <ul class="card-meta">
+            <li>Go</li>
+            <li>Redis</li>
+          </ul>
+          <a class="card-link" href="#">View project →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT — the notebook page -->
+    <section id="about" class="about">
+      <div class="about-page">
+        <p class="eyebrow">About</p>
+        <p class="about-text">
+          Write two or three sentences about who you are, what kind of problems you like solving,
+          and what you're working on now. Keep it plain — say what you actually do, not what sounds impressive.
+        </p>
+        <div class="about-facts">
+          <div>
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">City, Country</span>
+          </div>
+          <div>
+            <span class="fact-label">Currently</span>
+            <span class="fact-value">Role / Company</span>
+          </div>
+          <div>
+            <span class="fact-label">Stack</span>
+            <span class="fact-value">TypeScript, Python, Go</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT — the stamped card -->
+    <section id="contact" class="contact">
+      <div class="stamp-card">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Say hello.</h2>
+        <p>Open to opportunities and interesting problems. Reach out any time.</p>
+        <a class="contact-cta" href="mailto:you@example.com">you@example.com</a>
+        <div class="socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Your Name</span>
+    <span>Logged and maintained by hand.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
